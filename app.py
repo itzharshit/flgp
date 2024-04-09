@@ -1,5 +1,5 @@
 #%% Import Flask and create an app object
-import config
+#import config
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -28,7 +28,7 @@ from langchain.agents import initialize_agent, load_tools
 
 
 from langchain.agents.agent_toolkits import PlayWrightBrowserToolkit
-from langchain.tools.playwright.utils import (
+from langchain_community.tools.playwright.utils import (
     create_async_playwright_browser,
     create_sync_playwright_browser, # A synchronous browser is available, though it isn't compatible with jupyter.
 )
