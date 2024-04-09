@@ -2,7 +2,7 @@ openai
 flask
 flask-markdown
 # gradio
-langchain
+langchain==0.0.192
 tiktoken>=0.4.0
 requests
 elevenlabs
